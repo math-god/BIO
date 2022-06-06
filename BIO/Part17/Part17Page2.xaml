@@ -1,0 +1,19 @@
+﻿<Page x:Class="BIO.Part17.Part17Page2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BIO.Part17"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Part17Page2">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="131" Width="352" TextAlignment="Left"><Run Text="Европеоидная раса. Для людей этой расы характерны"/><LineBreak/><Run Text="светлая кожа, прямые или волнистые светло-русые или темно-русые волосы, серые, серо-зеленые, каре-зеленые и голубые широко открытые глаза, умеренно развитый подбородок, неширокий выступающий нос, нетолстые губы, хорошо развитый волосяной покров на лице у мужчин. Сейчас европеоиды живут на всех материках, но сформировались они в Европе и Передней Азии."/></TextBlock>
+        <Button Content="Вперед" HorizontalAlignment="Left" Margin="510,400,0,0" VerticalAlignment="Top" Width="236" Click="Button_Click_1" />
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="33,400,0,0" VerticalAlignment="Top" Width="240" Click="Button_Click" />
+        <Image Margin="412,43,54,79" Stretch="Fill" Source="/image9.png"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="106" Width="367" TextAlignment="Left"><Run Text="Монголоидная раса. Монголоиды обладают желтой"/><LineBreak/><Run Text="или желто-коричневой кожей. Для них характерны темные жесткие прямые волосы, широкое уплощенное скуластое лицо, узкие и слегка раскосые карие глаза со складкой верхнего века во внутреннем углу глаза (эпикантусом), плоский и довольно широкий нос, редкая растительность на лице и теле."/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="10,303,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="82" Width="367" TextAlignment="Left" Text="Австрало-негроидная раса. Негроиды темнокожи, для них характерны курчавые темные волосы, широкий и плоский нос, карие или черные глаза, редкая растительность на лице и теле. Классические негроиды живут в экваториальной Африке, но схожий тип людей встречается по всему экваториальному поясу."/>
+    </Grid>
+</Page>

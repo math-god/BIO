@@ -1,0 +1,17 @@
+﻿<Page x:Class="BIO.Part1.Part1Page3"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BIO.Part1"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Part1Page3">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="174" Width="429"><Run Text="Химические вещества клетки. Элементы, входящие в состав организмов, могут быть составными частями молекул разнообразных неорганических и органических соединений либо находиться в форме"/><LineBreak/><Run Text="ионов, например катионов (К+, Na+, Са2+, Mg2+) и анионов (СГ, НС03&quot;,"/><LineBreak/><Run Text="H2P 0 4, SO|~ и др.) (рис. 5). Важнейшим из неорганических веществ,"/><LineBreak/><Run Text="входящих в состав клетки, является вода. В ней растворены газы (0 2,"/><LineBreak/><Run Text="С02, N 2) и другие соединения. Органические вещества состоят в основном из С, Н и О; в составе белков к этим элементам прибавляются N"/><LineBreak/><Run Text="и S, а в нуклеиновых кислотах — N и Р. Соотношение органических"/><LineBreak/><Run Text="и неорганических веществ в клетках различно"/></TextBlock>
+        <Image Margin="260,204,36,77" Source="/Image4.png" Stretch="Fill"/>
+        <Button Content="Вперед" HorizontalAlignment="Left" Margin="36,240,0,0" VerticalAlignment="Top" Width="199" Click="Button_Click"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="36,302,0,0" VerticalAlignment="Top" Width="199" Click="Button_Click_1"/>
+    </Grid>
+</Page>

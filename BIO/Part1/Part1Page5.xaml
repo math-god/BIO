@@ -1,0 +1,41 @@
+﻿<Page x:Class="BIO.Part1.Part1Page5"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BIO.Part1"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Part1Page5">
+
+    <Grid>
+        <CheckBox x:Name="answer1" Content="3" HorizontalAlignment="Left" Margin="28,51,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="4" HorizontalAlignment="Left" Margin="28,71,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="2" HorizontalAlignment="Left" Margin="28,91,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="28,14,0,0" TextWrapping="Wrap" Text="На сколько групп делятся элементы в живых оргазмах" VerticalAlignment="Top" Width="199"/>
+        <TextBlock HorizontalAlignment="Left" Margin="28,130,0,0" TextWrapping="Wrap" Text="Сколько % воды содержитса в клетказ" VerticalAlignment="Top" Width="199"/>
+        <CheckBox Content="90%" HorizontalAlignment="Left" Margin="28,173,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="40%" HorizontalAlignment="Left" Margin="28,193,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="50%" HorizontalAlignment="Left" Margin="28,213,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="50-70%" HorizontalAlignment="Left" Margin="28,253,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox x:Name="answer2" Content="40-90%" HorizontalAlignment="Left" Margin="28,233,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="28,285,0,0" TextWrapping="Wrap" Text="Какой элемент содержится в группе ультрамикроэлементамов " VerticalAlignment="Top" Width="199"/>
+        <CheckBox x:Name="answer3" Content="Уран" HorizontalAlignment="Left" Margin="28,330,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="Бор" HorizontalAlignment="Left" Margin="28,350,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="Медь" HorizontalAlignment="Left" Margin="28,370,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="Азот" HorizontalAlignment="Left" Margin="28,410,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="Калий" HorizontalAlignment="Left" Margin="28,390,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="412,13,0,0" TextWrapping="Wrap" Text="Выберете неорганическийй элемент" VerticalAlignment="Top" Width="199"/>
+        <CheckBox x:Name="answer4" Content="Вода" HorizontalAlignment="Left" Margin="412,58,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="Белки" HorizontalAlignment="Left" Margin="412,78,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="Лепиды" HorizontalAlignment="Left" Margin="412,98,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="Углеводы" HorizontalAlignment="Left" Margin="412,118,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Отправить результаты" HorizontalAlignment="Left" Margin="426,285,0,0" VerticalAlignment="Top" Width="145" Click="Button_Click"/>
+        <TextBlock x:Name="resultTestTextBox" HorizontalAlignment="Left" Margin="607,285,0,0" TextWrapping="Wrap" Text="Оценка" VerticalAlignment="Top" Width="100"/>
+        <Button Content="На главную" HorizontalAlignment="Left" Margin="426,370,0,0" VerticalAlignment="Top" Width="145" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="412,144,0,0" TextWrapping="Wrap" Text= "В какой группе количество элементов составляет до 0,001% массы тела" VerticalAlignment="Top" Width="310"/>
+        <CheckBox x:Name="answer5" Content="макроэлементы" HorizontalAlignment="Left" Margin="412,181,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="микроэлементы" HorizontalAlignment="Left" Margin="412,201,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="ультрамикроэлементы" HorizontalAlignment="Left" Margin="412,221,0,0" VerticalAlignment="Top" Width="120"/>
+    </Grid>
+</Page>
